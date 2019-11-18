@@ -1,4 +1,4 @@
-## 1.0.2 (2019-11-18)
+## 1.0.3 (2019-11-18)
 
 ### 🌟 新功能
 
@@ -9,6 +9,7 @@
 ### 🐛 Bug 修复
 
 * **测试：** 测试changelog ([dc0f29e](https://github.com/luoxue-victor/commitlint/commit/dc0f29e))
+* **path：** 修改path ([3531162](https://github.com/luoxue-victor/commitlint/commit/3531162))
 
 
 

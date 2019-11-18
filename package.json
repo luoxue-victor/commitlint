@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-commitlint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于vue-cli3的代码提交检查规范",
   "main": "index.js",
   "scripts": {
