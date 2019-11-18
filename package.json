@@ -1,0 +1,36 @@
+{
+  "name": "vue-cli-plugin-commitlint",
+  "version": "1.0.1",
+  "description": "基于vue-cli3的代码提交检查规范",
+  "main": "index.js",
+  "scripts": {
+    "log": "conventional-changelog --config ./lib/log -i CHANGELOG.md -s -r 0",
+    "cz": "npm run log && git add . && git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoxue-victor/commitlint.git"
+  },
+  "author": "luoxue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoxue-victor/commitlint/issues"
+  },
+  "homepage": "https://github.com/luoxue-victor/commitlint#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "commitlint": "^8.2.0",
+    "conventional-changelog-cli": "^2.0.28",
+    "husky": "^3.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "lib/cz"
+    }
+  }
+}
