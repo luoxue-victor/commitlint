@@ -1,4 +1,4 @@
-## 1.0.3 (2019-11-18)
+## 1.0.4 (2019-11-18)
 
 ### 🌟 新功能
 
@@ -9,7 +9,14 @@
 ### 🐛 Bug 修复
 
 * **测试：** 测试changelog ([dc0f29e](https://github.com/luoxue-victor/commitlint/commit/dc0f29e))
+* **lib/cz/engine：** 修改了引擎promp配置 ([dd36793](https://github.com/luoxue-victor/commitlint/commit/dd36793)), closes [#1231231](https://github.com/luoxue-victor/commitlint/issues/1231231)
 * **path：** 修改path ([3531162](https://github.com/luoxue-victor/commitlint/commit/3531162))
+
+
+### 💡 不兼容变更
+
+* **lib/cz/engine：** 不兼容1
+ 不兼容2
 
 
 
