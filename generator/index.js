@@ -10,7 +10,7 @@ module.exports = (api, option) => {
       },
       scripts: {
         "log": "conventional-changelog --config vue-cli-plugin-commitlint/lib/log -i CHANGELOG.md -s -r 0",
-        "cz": "npm run log && git add . && git cz"
+        "cz": "npm run log && git add . && git cz" 
       },
       "husky": {
         "hooks": {
