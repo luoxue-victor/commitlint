@@ -9,7 +9,7 @@ module.exports = (api, option) => {
         "husky": "^3.0.9"
       },
       scripts: {
-        "log": "conventional-changelog --config vue-cli-plugin-commitlint/lib/log -i CHANGELOG.md -s -r 0",
+        "log": "conventional-changelog --config ./node_modules/vue-cli-plugin-commitlint/lib/log -i CHANGELOG.md -s -r 0",
         "cz": "npm run log && git add . && git cz" 
       },
       "husky": {
@@ -19,7 +19,7 @@ module.exports = (api, option) => {
       },
       "config": {
         "commitizen": {
-          "path": "vue-cli-plugin-commitlint/lib/cz"
+          "path": "./node_modules/vue-cli-plugin-commitlint/lib/cz"
         }
       }
     })
