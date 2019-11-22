@@ -1,12 +1,12 @@
-*{{#if scope}} **{{scope}}：**
+{{#if scope}} {{scope}} |
 {{~/if}} {{#if subject}}
   {{~subject}}
 {{~else}}
   {{~header}}
 {{~/if}}
-
+ |
 {{~!-- commit link --}} {{#if @root.linkReferences~}}
-  ([{{hash}}](
+  [{{hash}}](
   {{~#if @root.repository}}
     {{~#if @root.host}}
       {{~@root.host}}/
@@ -18,7 +18,7 @@
   {{~else}}
     {{~@root.repoUrl}}
   {{~/if}}/
-  {{~@root.commit}}/{{hash}}))
+  {{~@root.commit}}/{{hash}})
 {{~else}}
   {{~hash}}
 {{~/if}}
