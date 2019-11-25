@@ -20,6 +20,17 @@
  version | 修改发布版本 | [2f841f0](https://github.com/luoxue-victor/commitlint/commit/2f841f0)
 
 
+### 📝 文档
+|范围|描述|commitId|
+--|--|--
+ changelog | 修改了chenglog 格式 | [9f59211](https://github.com/luoxue-victor/commitlint/commit/9f59211)
+ doc | 修改readme | [1dc3afc](https://github.com/luoxue-victor/commitlint/commit/1dc3afc)
+ doc | 增加 readme 使用文档 | [a48b805](https://github.com/luoxue-victor/commitlint/commit/a48b805)
+ readme | 修改了readme | [49d50a4](https://github.com/luoxue-victor/commitlint/commit/49d50a4)
+ readme | 修改了reame 文件 | [0f68758](https://github.com/luoxue-victor/commitlint/commit/0f68758)
+ readme | 修改readme 格式 | [84b30fd](https://github.com/luoxue-victor/commitlint/commit/84b30fd)
+
+
 ### 💡 不兼容变更
 
 * **lib/cz/engine：** 不兼容1
