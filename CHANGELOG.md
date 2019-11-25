@@ -1,4 +1,4 @@
-## 1.0.6 (2019-11-22)
+## 1.0.6 (2019-11-25)
 
 ### 🌟 新功能
 |范围|描述|commitId|
@@ -17,6 +17,7 @@
  path | 修改path | [3531162](https://github.com/luoxue-victor/commitlint/commit/3531162)
  publish | 发布新版本 1.0.4 | [fe484b8](https://github.com/luoxue-victor/commitlint/commit/fe484b8)
  version | 修改版本 | [025f7b0](https://github.com/luoxue-victor/commitlint/commit/025f7b0)
+ version | 修改发布版本 | [2f841f0](https://github.com/luoxue-victor/commitlint/commit/2f841f0)
 
 
 ### 💡 不兼容变更
