@@ -2,38 +2,14 @@
 
 结合 `commitizen` `commitlint` `conventional-changelog-cli` `husky`，进行封装，一键安装，开箱即用的 `git commit` 规范。
 
-### 功能
+## 功能
 
 1. 自动检测 commit 是否规范，不规范不允许提交
 2. 自动提示 commit 填写格式。不怕忘记规范怎么写
 3. 集成 git add . && git commit 不需要在执行两个命令
 4. 自动生成 changelog
 
-
-## 使用
-
-1. 代码提交 npm run cz
-
-![commander](./public/commander.png)
-
-2. 选择一个类型会自动询问
-
-    1. (非必填）本次提交的改变所影响的范围
-    2. (必填）写一个简短的变化描述
-    3. (非必填）提供更详细的变更描述
-    4. (非必填)是否存在不兼容变更?
-    5. (非必填)此次变更是否影响某些打开的 issue 
- 
-![commander](./public/prompt.png)
-
-### 效果演示
-
-
-![commander](./public/prompt.png)
-
-
-
-### 配置
+## 配置
 
 1. 如果您是 vue-cli3 的项目可以直接使用即可
 
@@ -83,7 +59,25 @@ npm run cz  # git add . && git commit -m 'feat:(xxx): xxx'
 npm run log # 生成 CHANGELOG
 ```
 
-### 规则
+1. 代码提交 npm run cz
+
+![commander](./public/commander.png)
+
+2. 选择一个类型会自动询问
+
+    1. (非必填）本次提交的改变所影响的范围
+    2. (必填）写一个简短的变化描述
+    3. (非必填）提供更详细的变更描述
+    4. (非必填)是否存在不兼容变更?
+    5. (非必填)此次变更是否影响某些打开的 issue 
+ 
+![prompt](./public/prompt.png)
+
+### changelog 演示
+
+![changelog](./public/changelog.png)
+
+## 规则
 
 | 规范名   | 描述                                                    |
 | -------- | ------------------------------------------------------- |
