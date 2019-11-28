@@ -15,6 +15,7 @@
  changelog | 修复了 changelog 不兼容的判断问题 | [fa2feb2](https://github.com/luoxue-victor/commitlint/commit/fa2feb2)
  index.js | 在vue中没有index.js会报错 | [af85925](https://github.com/luoxue-victor/commitlint/commit/af85925)
  lib/cz/engine | 修改了引擎promp配置 | [dd36793](https://github.com/luoxue-victor/commitlint/commit/dd36793), closes [#1231231](https://github.com/luoxue-victor/commitlint/issues/1231231)
+ log | 修改 changelog 生成格式 | [9e839ad](https://github.com/luoxue-victor/commitlint/commit/9e839ad)
  log | 修改log生成 | [eab1f7c](https://github.com/luoxue-victor/commitlint/commit/eab1f7c)
  path | 修改path | [3531162](https://github.com/luoxue-victor/commitlint/commit/3531162)
  publish | 发布新版本 1.0.4 | [fe484b8](https://github.com/luoxue-victor/commitlint/commit/fe484b8)
