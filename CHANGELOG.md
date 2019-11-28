@@ -1,14 +1,15 @@
-## 1.0.7 (2019-11-25)
+## 1.0.10 (2019-11-28)
 
 ### 🌟 新功能
-|范围|描述|commitId|
+范围|描述|commitId
 --|--|--
  init | init | [8cd3d82](https://github.com/luoxue-victor/commitlint/commit/8cd3d82)
  package | 发布1.0.2版本 | [7bc2b42](https://github.com/luoxue-victor/commitlint/commit/7bc2b42)
+ version | 增加1.0.7版本 | [6937136](https://github.com/luoxue-victor/commitlint/commit/6937136)
 
 
 ### 🐛 Bug 修复
-|范围|描述|commitId|
+范围|描述|commitId
 --|--|--
  测试 | 测试changelog | [dc0f29e](https://github.com/luoxue-victor/commitlint/commit/dc0f29e)
  changelog | 修复了 changelog 不兼容的判断问题 | [fa2feb2](https://github.com/luoxue-victor/commitlint/commit/fa2feb2)
@@ -22,7 +23,7 @@
 
 
 ### 📝 文档
-|范围|描述|commitId|
+范围|描述|commitId
 --|--|--
  changelog | 修改了chenglog 格式 | [9f59211](https://github.com/luoxue-victor/commitlint/commit/9f59211)
  doc | 修改readme | [1dc3afc](https://github.com/luoxue-victor/commitlint/commit/1dc3afc)
