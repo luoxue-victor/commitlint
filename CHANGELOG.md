@@ -1,4 +1,4 @@
-## 1.0.10 (2019-11-28)
+## 1.0.12 (2019-12-24)
 
 ### 🌟 新功能
 范围|描述|commitId
@@ -27,6 +27,7 @@
 范围|描述|commitId
 --|--|--
  changelog | 修改了chenglog 格式 | [9f59211](https://github.com/luoxue-victor/commitlint/commit/9f59211)
+ changelog | 修改changelog | [9681573](https://github.com/luoxue-victor/commitlint/commit/9681573)
  doc | 修改readme | [1dc3afc](https://github.com/luoxue-victor/commitlint/commit/1dc3afc)
  doc | 增加 readme 使用文档 | [a48b805](https://github.com/luoxue-victor/commitlint/commit/a48b805)
  readme | 修改了readme | [49d50a4](https://github.com/luoxue-victor/commitlint/commit/49d50a4)
