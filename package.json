@@ -26,7 +26,8 @@
     "commitizen": "^4.0.3",
     "commitlint": "^8.2.0",
     "conventional-changelog-cli": "^2.0.28",
-    "husky": "^3.0.9"
+    "husky": "^3.0.9",
+    "right-pad": "^1.0.1"
   },
   "config": {
     "commitizen": {
